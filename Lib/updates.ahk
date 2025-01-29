@@ -39,7 +39,7 @@ DownloadAndUpdateRepo() {
     MsgBox("New macro file will be in the old file")
     zipUrl := "https://github.com/" repoOwner "/" repoName "/archive/refs/heads/main.zip"
 
-    zipFilePath := A_ScriptDir "\Magic-hill.zip"
+    zipFilePath := A_ScriptDir "\Strange town.zip"
 
     Download(zipUrl, zipFilePath)
 
