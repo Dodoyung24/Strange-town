@@ -68,7 +68,7 @@ ExtractZIP(zipFilePath, targetDir) {
     RunWait("powershell -Command Expand-Archive -Path '" zipFilePath "' -DestinationPath '" targetDir "'", "", "Hide")
 
     ; Check if the extraction was successful
-    extractedFolderPath := targetDir . "\MagicHill-main"
+    extractedFolderPath := targetDir . "\Strange town-main"
     if (!DirExist(extractedFolderPath)) {
 
        AddToLog("Update Successful!")          
