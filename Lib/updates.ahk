@@ -47,7 +47,7 @@ DownloadAndUpdateRepo() {
 
     FileDelete(zipFilePath)
 
-    extractedFolderPath := A_ScriptDir . "" . "Strange town raid"
+    extractedFolderPath := A_ScriptDir . "" . "Strange town raid (new version)"
     if !DirExist(extractedFolderPath) {
       
         return
